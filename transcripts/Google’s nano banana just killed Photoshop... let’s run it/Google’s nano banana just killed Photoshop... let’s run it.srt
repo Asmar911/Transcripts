@@ -1,0 +1,420 @@
+1
+00:00:00,000 --> 00:00:02,720
+A few days ago, image editing changed forever.
+
+2
+00:00:02,720 --> 00:00:05,420
+Google released Gemini Flash 2.5 image,
+
+3
+00:00:05,420 --> 00:00:07,160
+coincidentally, with the same nickname
+
+4
+00:00:07,160 --> 00:00:09,440
+my ex-girlfriend gave me Nano Banana.
+
+5
+00:00:09,440 --> 00:00:11,760
+That has everyone buy inputs on Adobe,
+
+6
+00:00:11,760 --> 00:00:13,800
+because Photoshop is officially dead.
+
+7
+00:00:13,800 --> 00:00:16,040
+Instead of learning how to use all these antique tools,
+
+8
+00:00:16,040 --> 00:00:18,600
+you can now just prompt Nano Banana for changes,
+
+9
+00:00:18,600 --> 00:00:21,760
+and it's able to deliver any photo alterations you can imagine.
+
+10
+00:00:21,760 --> 00:00:24,400
+And most importantly, while maintaining the consistency
+
+11
+00:00:24,400 --> 00:00:25,520
+of the original image.
+
+12
+00:00:25,520 --> 00:00:27,560
+If you're an animator or graphic designer,
+
+13
+00:00:27,560 --> 00:00:29,760
+this can unlock massive productivity gains.
+
+14
+00:00:29,760 --> 00:00:32,000
+Like if you wanted to steal some meat canyon art
+
+15
+00:00:32,000 --> 00:00:33,280
+and make it do something else,
+
+16
+00:00:33,280 --> 00:00:35,400
+you can now accomplish that with a single prompt.
+
+17
+00:00:35,400 --> 00:00:36,640
+No talent, necessary.
+
+18
+00:00:36,640 --> 00:00:39,240
+Google is finally back to its roots building cool stuff,
+
+19
+00:00:39,240 --> 00:00:42,040
+and Flash 2.5 is a tool that makes stable diffusion
+
+20
+00:00:42,040 --> 00:00:43,480
+look like Microsoft's paint.
+
+21
+00:00:43,480 --> 00:00:46,240
+In today's video, we'll take a look at all of its capabilities
+
+22
+00:00:46,240 --> 00:00:49,000
+and find out if our Adobe puts will actually print.
+
+23
+00:00:49,000 --> 00:00:52,600
+It is August 29th, 2025, and you are watching the code report.
+
+24
+00:00:52,600 --> 00:00:55,200
+Not only is Nano Banana an exceptional image model
+
+25
+00:00:55,200 --> 00:00:57,720
+that's already at the top of the L.M. Arena leaderboard,
+
+26
+00:00:57,840 --> 00:01:00,080
+but it's also extremely fast and affordable,
+
+27
+00:01:00,080 --> 00:01:03,480
+costing only 3.9 cents per image via the API.
+
+28
+00:01:03,480 --> 00:01:05,720
+And hypothetically, Google is also trained
+
+29
+00:01:05,720 --> 00:01:07,800
+in even more powerful Grondavenan app,
+
+30
+00:01:07,800 --> 00:01:10,440
+but it's unlikely the common man will ever get access to it.
+
+31
+00:01:10,440 --> 00:01:12,520
+The upgrade that most people are talking about, though,
+
+32
+00:01:12,520 --> 00:01:14,160
+is character consistency.
+
+33
+00:01:14,160 --> 00:01:17,160
+If you start with an image of a person or pet, for example,
+
+34
+00:01:17,160 --> 00:01:19,200
+the model can blend it with a different image
+
+35
+00:01:19,200 --> 00:01:20,600
+or make minor changes to it
+
+36
+00:01:20,600 --> 00:01:23,040
+without noticeably altering the original character.
+
+37
+00:01:23,040 --> 00:01:24,760
+Or multiple characters and objects,
+
+38
+00:01:24,760 --> 00:01:27,680
+like this guy did by blending 13 different images together.
+
+39
+00:01:27,680 --> 00:01:28,760
+That means if you want to link to
+
+40
+00:01:28,760 --> 00:01:30,720
+and headshot of yourself wearing a nice suit,
+
+41
+00:01:30,720 --> 00:01:32,680
+but can't afford to buy an actual suit,
+
+42
+00:01:32,680 --> 00:01:34,160
+Nano Banana has you covered.
+
+43
+00:01:34,160 --> 00:01:36,280
+In addition, if you work for the shadow government,
+
+44
+00:01:36,280 --> 00:01:38,560
+it can be used to implement Mandela effects,
+
+45
+00:01:38,560 --> 00:01:41,320
+like removing the cornacopia from the fruit of the loom logo.
+
+46
+00:01:41,320 --> 00:01:43,640
+That's cool, but if you're wanna be game developer,
+
+47
+00:01:43,640 --> 00:01:46,040
+one of the main showstoppers is the insane amount of time
+
+48
+00:01:46,040 --> 00:01:48,680
+it takes to build up a collection of good-looking assets
+
+49
+00:01:48,680 --> 00:01:50,440
+for all your characters and animations.
+
+50
+00:01:50,440 --> 00:01:52,440
+Well, now, if you start with a base character,
+
+51
+00:01:52,440 --> 00:01:54,080
+you can prompt all the different positions
+
+52
+00:01:54,080 --> 00:01:55,680
+required for an animation.
+
+53
+00:01:55,760 --> 00:01:57,880
+Or better yet, just have Gemini generate
+
+54
+00:01:57,880 --> 00:02:00,520
+an entire sprite for you with all of them in a single prompt.
+
+55
+00:02:00,520 --> 00:02:02,360
+They keep in mind though, if you go this route,
+
+56
+00:02:02,360 --> 00:02:04,720
+you'll have to disclose any AI assets used
+
+57
+00:02:04,720 --> 00:02:06,000
+when you publish on Steam.
+
+58
+00:02:06,000 --> 00:02:08,280
+And you can't lie about it because anything generated
+
+59
+00:02:08,280 --> 00:02:11,280
+with Google has an invisible watermark called SynthID.
+
+60
+00:02:11,280 --> 00:02:12,880
+What's kind of crazy about this model though
+
+61
+00:02:12,880 --> 00:02:15,600
+is that it also has an understanding of the real world.
+
+62
+00:02:15,600 --> 00:02:17,520
+Like if you point to a spot on Google Maps
+
+63
+00:02:17,520 --> 00:02:19,120
+and ask what a person would see there,
+
+64
+00:02:19,120 --> 00:02:20,800
+it can generate a realistic photo.
+
+65
+00:02:20,800 --> 00:02:22,760
+Or if you're a visual learner, you can sketch with it
+
+66
+00:02:22,760 --> 00:02:23,600
+step by step.
+
+67
+00:02:23,600 --> 00:02:25,520
+Like you could use the sketch tool to map out
+
+68
+00:02:25,520 --> 00:02:27,000
+your AWS infrastructure.
+
+69
+00:02:27,000 --> 00:02:29,040
+It's also pretty decent handling text,
+
+70
+00:02:29,040 --> 00:02:30,560
+so you can easily turn your images
+
+71
+00:02:30,560 --> 00:02:32,600
+into lame Instagram ads or memes.
+
+72
+00:02:32,600 --> 00:02:33,760
+But it's still not perfect,
+
+73
+00:02:33,760 --> 00:02:35,400
+so now let's talk about the bad stuff.
+
+74
+00:02:35,400 --> 00:02:36,840
+As you can see in my ad here,
+
+75
+00:02:36,840 --> 00:02:40,160
+it has a tendency to add extra characters to certain words.
+
+76
+00:02:40,160 --> 00:02:42,680
+In addition, I found that it often didn't follow my prompt
+
+77
+00:02:42,680 --> 00:02:44,800
+exactly and just kind of did its own thing.
+
+78
+00:02:44,800 --> 00:02:46,680
+Or in many cases, it just ignored the prompt
+
+79
+00:02:46,680 --> 00:02:47,600
+and did nothing at all.
+
+80
+00:02:47,600 --> 00:02:50,600
+And I think even the character consistency is a bit overhyped.
+
+81
+00:02:50,600 --> 00:02:53,200
+I tried it on a bunch of different images of real humans,
+
+82
+00:02:53,200 --> 00:02:56,440
+and it still has that obvious AI uncanny valley look to it.
+
+83
+00:02:56,440 --> 00:02:58,680
+And finally, as expected, as a Google product,
+
+84
+00:02:58,680 --> 00:03:00,880
+it's highly censored trying to generate anything
+
+85
+00:03:00,880 --> 00:03:03,440
+that's not safe for work is not going to happen.
+
+86
+00:03:03,440 --> 00:03:05,840
+But the best way to get the most out of these AI tools
+
+87
+00:03:05,840 --> 00:03:07,640
+is to learn how they work under the hood.
+
+88
+00:03:07,640 --> 00:03:09,520
+And you can do that for free with brilliant
+
+89
+00:03:09,520 --> 00:03:11,160
+the sponsor of today's video.
+
+90
+00:03:11,160 --> 00:03:12,760
+They're how AI workscores
+
+91
+00:03:12,760 --> 00:03:14,960
+teaches you how to build a functioning language model
+
+92
+00:03:14,960 --> 00:03:17,280
+from scratch, and lets you experiment with things
+
+93
+00:03:17,280 --> 00:03:20,520
+like feature vectors to edit facial expressions and images.
+
+94
+00:03:20,520 --> 00:03:22,000
+This hands-on approach to learning
+
+95
+00:03:22,000 --> 00:03:24,600
+helps you master challenging concepts over time.
+
+96
+00:03:24,600 --> 00:03:26,840
+And is proven to be six times more effective
+
+97
+00:03:26,840 --> 00:03:28,560
+than watching video lectures.
+
+98
+00:03:28,560 --> 00:03:30,400
+Try everything brilliant has to offer
+
+99
+00:03:30,400 --> 00:03:33,600
+for free by visiting brilliant.org slash fire ship
+
+100
+00:03:33,600 --> 00:03:36,400
+or scan the QR code on screen to get 20% off
+
+101
+00:03:36,400 --> 00:03:38,160
+that are premium annual subscription,
+
+102
+00:03:38,160 --> 00:03:40,200
+which gives you unlimited daily access
+
+103
+00:03:40,200 --> 00:03:41,560
+to everything on brilliant.
+
+104
+00:03:41,560 --> 00:03:42,880
+This has been the code report.
+
+105
+00:03:42,880 --> 00:03:45,400
+Thanks for watching, and I will see you in the next one.
+

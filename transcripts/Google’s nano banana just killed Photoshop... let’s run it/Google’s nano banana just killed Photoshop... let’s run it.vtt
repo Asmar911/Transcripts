@@ -1,0 +1,317 @@
+WEBVTT
+
+00:00.000 --> 00:02.720
+A few days ago, image editing changed forever.
+
+00:02.720 --> 00:05.420
+Google released Gemini Flash 2.5 image,
+
+00:05.420 --> 00:07.160
+coincidentally, with the same nickname
+
+00:07.160 --> 00:09.440
+my ex-girlfriend gave me Nano Banana.
+
+00:09.440 --> 00:11.760
+That has everyone buy inputs on Adobe,
+
+00:11.760 --> 00:13.800
+because Photoshop is officially dead.
+
+00:13.800 --> 00:16.040
+Instead of learning how to use all these antique tools,
+
+00:16.040 --> 00:18.600
+you can now just prompt Nano Banana for changes,
+
+00:18.600 --> 00:21.760
+and it's able to deliver any photo alterations you can imagine.
+
+00:21.760 --> 00:24.400
+And most importantly, while maintaining the consistency
+
+00:24.400 --> 00:25.520
+of the original image.
+
+00:25.520 --> 00:27.560
+If you're an animator or graphic designer,
+
+00:27.560 --> 00:29.760
+this can unlock massive productivity gains.
+
+00:29.760 --> 00:32.000
+Like if you wanted to steal some meat canyon art
+
+00:32.000 --> 00:33.280
+and make it do something else,
+
+00:33.280 --> 00:35.400
+you can now accomplish that with a single prompt.
+
+00:35.400 --> 00:36.640
+No talent, necessary.
+
+00:36.640 --> 00:39.240
+Google is finally back to its roots building cool stuff,
+
+00:39.240 --> 00:42.040
+and Flash 2.5 is a tool that makes stable diffusion
+
+00:42.040 --> 00:43.480
+look like Microsoft's paint.
+
+00:43.480 --> 00:46.240
+In today's video, we'll take a look at all of its capabilities
+
+00:46.240 --> 00:49.000
+and find out if our Adobe puts will actually print.
+
+00:49.000 --> 00:52.600
+It is August 29th, 2025, and you are watching the code report.
+
+00:52.600 --> 00:55.200
+Not only is Nano Banana an exceptional image model
+
+00:55.200 --> 00:57.720
+that's already at the top of the L.M. Arena leaderboard,
+
+00:57.840 --> 01:00.080
+but it's also extremely fast and affordable,
+
+01:00.080 --> 01:03.480
+costing only 3.9 cents per image via the API.
+
+01:03.480 --> 01:05.720
+And hypothetically, Google is also trained
+
+01:05.720 --> 01:07.800
+in even more powerful Grondavenan app,
+
+01:07.800 --> 01:10.440
+but it's unlikely the common man will ever get access to it.
+
+01:10.440 --> 01:12.520
+The upgrade that most people are talking about, though,
+
+01:12.520 --> 01:14.160
+is character consistency.
+
+01:14.160 --> 01:17.160
+If you start with an image of a person or pet, for example,
+
+01:17.160 --> 01:19.200
+the model can blend it with a different image
+
+01:19.200 --> 01:20.600
+or make minor changes to it
+
+01:20.600 --> 01:23.040
+without noticeably altering the original character.
+
+01:23.040 --> 01:24.760
+Or multiple characters and objects,
+
+01:24.760 --> 01:27.680
+like this guy did by blending 13 different images together.
+
+01:27.680 --> 01:28.760
+That means if you want to link to
+
+01:28.760 --> 01:30.720
+and headshot of yourself wearing a nice suit,
+
+01:30.720 --> 01:32.680
+but can't afford to buy an actual suit,
+
+01:32.680 --> 01:34.160
+Nano Banana has you covered.
+
+01:34.160 --> 01:36.280
+In addition, if you work for the shadow government,
+
+01:36.280 --> 01:38.560
+it can be used to implement Mandela effects,
+
+01:38.560 --> 01:41.320
+like removing the cornacopia from the fruit of the loom logo.
+
+01:41.320 --> 01:43.640
+That's cool, but if you're wanna be game developer,
+
+01:43.640 --> 01:46.040
+one of the main showstoppers is the insane amount of time
+
+01:46.040 --> 01:48.680
+it takes to build up a collection of good-looking assets
+
+01:48.680 --> 01:50.440
+for all your characters and animations.
+
+01:50.440 --> 01:52.440
+Well, now, if you start with a base character,
+
+01:52.440 --> 01:54.080
+you can prompt all the different positions
+
+01:54.080 --> 01:55.680
+required for an animation.
+
+01:55.760 --> 01:57.880
+Or better yet, just have Gemini generate
+
+01:57.880 --> 02:00.520
+an entire sprite for you with all of them in a single prompt.
+
+02:00.520 --> 02:02.360
+They keep in mind though, if you go this route,
+
+02:02.360 --> 02:04.720
+you'll have to disclose any AI assets used
+
+02:04.720 --> 02:06.000
+when you publish on Steam.
+
+02:06.000 --> 02:08.280
+And you can't lie about it because anything generated
+
+02:08.280 --> 02:11.280
+with Google has an invisible watermark called SynthID.
+
+02:11.280 --> 02:12.880
+What's kind of crazy about this model though
+
+02:12.880 --> 02:15.600
+is that it also has an understanding of the real world.
+
+02:15.600 --> 02:17.520
+Like if you point to a spot on Google Maps
+
+02:17.520 --> 02:19.120
+and ask what a person would see there,
+
+02:19.120 --> 02:20.800
+it can generate a realistic photo.
+
+02:20.800 --> 02:22.760
+Or if you're a visual learner, you can sketch with it
+
+02:22.760 --> 02:23.600
+step by step.
+
+02:23.600 --> 02:25.520
+Like you could use the sketch tool to map out
+
+02:25.520 --> 02:27.000
+your AWS infrastructure.
+
+02:27.000 --> 02:29.040
+It's also pretty decent handling text,
+
+02:29.040 --> 02:30.560
+so you can easily turn your images
+
+02:30.560 --> 02:32.600
+into lame Instagram ads or memes.
+
+02:32.600 --> 02:33.760
+But it's still not perfect,
+
+02:33.760 --> 02:35.400
+so now let's talk about the bad stuff.
+
+02:35.400 --> 02:36.840
+As you can see in my ad here,
+
+02:36.840 --> 02:40.160
+it has a tendency to add extra characters to certain words.
+
+02:40.160 --> 02:42.680
+In addition, I found that it often didn't follow my prompt
+
+02:42.680 --> 02:44.800
+exactly and just kind of did its own thing.
+
+02:44.800 --> 02:46.680
+Or in many cases, it just ignored the prompt
+
+02:46.680 --> 02:47.600
+and did nothing at all.
+
+02:47.600 --> 02:50.600
+And I think even the character consistency is a bit overhyped.
+
+02:50.600 --> 02:53.200
+I tried it on a bunch of different images of real humans,
+
+02:53.200 --> 02:56.440
+and it still has that obvious AI uncanny valley look to it.
+
+02:56.440 --> 02:58.680
+And finally, as expected, as a Google product,
+
+02:58.680 --> 03:00.880
+it's highly censored trying to generate anything
+
+03:00.880 --> 03:03.440
+that's not safe for work is not going to happen.
+
+03:03.440 --> 03:05.840
+But the best way to get the most out of these AI tools
+
+03:05.840 --> 03:07.640
+is to learn how they work under the hood.
+
+03:07.640 --> 03:09.520
+And you can do that for free with brilliant
+
+03:09.520 --> 03:11.160
+the sponsor of today's video.
+
+03:11.160 --> 03:12.760
+They're how AI workscores
+
+03:12.760 --> 03:14.960
+teaches you how to build a functioning language model
+
+03:14.960 --> 03:17.280
+from scratch, and lets you experiment with things
+
+03:17.280 --> 03:20.520
+like feature vectors to edit facial expressions and images.
+
+03:20.520 --> 03:22.000
+This hands-on approach to learning
+
+03:22.000 --> 03:24.600
+helps you master challenging concepts over time.
+
+03:24.600 --> 03:26.840
+And is proven to be six times more effective
+
+03:26.840 --> 03:28.560
+than watching video lectures.
+
+03:28.560 --> 03:30.400
+Try everything brilliant has to offer
+
+03:30.400 --> 03:33.600
+for free by visiting brilliant.org slash fire ship
+
+03:33.600 --> 03:36.400
+or scan the QR code on screen to get 20% off
+
+03:36.400 --> 03:38.160
+that are premium annual subscription,
+
+03:38.160 --> 03:40.200
+which gives you unlimited daily access
+
+03:40.200 --> 03:41.560
+to everything on brilliant.
+
+03:41.560 --> 03:42.880
+This has been the code report.
+
+03:42.880 --> 03:45.400
+Thanks for watching, and I will see you in the next one.
+
