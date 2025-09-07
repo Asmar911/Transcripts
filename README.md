@@ -48,4 +48,4 @@ On push:
 You can customize model and formats by editing the `Transcribe audio files` step in the workflow.
 
 Notes:
-- For best quality, `large-v3` yields higher accuracy but is large and slow on CPU; `medium` is a good balance for GitHub Actions. If your repo needs faster runs, try `small`.
+- For best quality, `large-v3` yields higher accuracy but is large and slow on CPU; `medium` is a good balance for GitHub Actions. If your repo needs faster runs, try `small`. 
