@@ -1,0 +1,68 @@
+name: Transcribe Audio
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.mp3'
+      - '**/*.wav'
+      - '**/*.m4a'
+      - '**/*.mp4'
+      - '**/*.mpeg'
+      - '**/*.mpga'
+      - '**/*.webm'
+      - '**/*.ogg'
+      - '**/*.flac'
+      - 'transcribe.py'
+      - 'requirements.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system deps (ffmpeg)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies (torch CPU + whisper)
+        run: |
+          python -m pip install --upgrade pip
+          pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio
+          pip install -r requirements.txt
+
+      - name: Transcribe audio files
+        run: |
+          python transcribe.py --input . --out-dir transcripts --model medium --formats txt,json,srt,vtt
+
+      - name: Upload transcripts as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: transcripts
+          path: transcripts
+          if-no-files-found: warn
+
+      - name: Commit transcripts back to repo
+        if: success()
+        run: |
+          if [ -d transcripts ] && [ -n "$(git status --porcelain transcripts)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add transcripts
+            git commit -m "Add/update transcripts [skip ci]"
+            git push
+          else
+            echo "No transcript changes to commit."
+          fi
