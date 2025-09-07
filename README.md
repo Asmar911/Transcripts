@@ -34,9 +34,16 @@ This repo includes a workflow at `.github/workflows/transcribe.yml` that:
 - Uploads the `transcripts/` directory as a build artifact
 - Commits transcript files back to the repo (if any changes)
 
-Usage:
+Manual run with inputs:
 
-- Push audio files (e.g., `.mp3`, `.wav`) or trigger the workflow manually via the Actions tab.
+- Go to the Actions tab → "Transcribe Audio" → Run workflow. You can set:
+  - `input_path`: File or directory to process (default `.`)
+  - `model`: Whisper model (`tiny`, `base`, `small`, `medium`, `large-v3`; default `medium`)
+  - `language`: Dropdown of supported languages shown as `code - Name` (e.g., `en - English`, `es - Spanish`) plus `auto - Auto-detect`. The workflow parses the code before passing it to the script.
+
+On push:
+
+- Pushing audio files (e.g., `.mp3`, `.wav`) also triggers the workflow and processes the whole repo (defaults: `input_path='.'`, `model='medium'`, auto language).
 
 You can customize model and formats by editing the `Transcribe audio files` step in the workflow.
 
